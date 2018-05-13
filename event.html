@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiv="X-UA-compatible" content="IE=edge">
+    <title> HOME </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="skippr-master/dist/skippr.css">
+    <link rel="stylesheet" href="pagescroll-jquery-menu-master/css/pagescroll_menu.css"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="skippr-master/dist/skippr.js"></script>
+    <script type="text/javascript" src="pagescroll-jquery-menu-master/js/pjm.min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery(".pagescroll-menu").pagescroll_menu({
+                "position":"top",
+                "type":"fixed",
+                "bgcolor":"#001694"
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <ul class="pagescroll-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about_us.html">ABOUT US</a></li>
+        <li><a href="event.html">EVENT</a></li>
+        <li><a href="letter.html">LETTER</a></li>
+        <li><a href="link.html">LINK</a></li>
+    </ul>
+
+    <div id="margin"></div>
+
+    <div id="under_construction">
+        <h1> Under Construction... </h1>
+        <img src="other-img/under_construction.png">
+    </div>
+
+
+    <footer>
+        <small>Copyright(C) 2008-2018 Soaring Club of Tokyo University of Science. All Rights Reserved.</small>
+    </footer>
+
+</body>
+</html>

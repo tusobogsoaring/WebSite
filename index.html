@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiv="X-UA-compatible" content="IE=edge">
+    <title> TUS Soaring Club OBOG </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="skippr-master/dist/skippr.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="pagescroll-jquery-menu-master/css/pagescroll_menu.css"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="skippr-master/dist/skippr.js"></script>
+    <script type="text/javascript" src="pagescroll-jquery-menu-master/js/pjm.min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery(".pagescroll-menu").pagescroll_menu({
+                "position":"top",
+                "type":"fixed",
+                "bgcolor":"#001694"
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#theTarget").skippr({
+                transition: 'slide',
+                speed: 800,
+                easing: 'easeOutQuart',
+                navType: 'block',
+                childrenElementType: 'div',
+                arrows: false,
+                autoPlay: true,
+                autoPlayDuration: 5000,
+                keyboardOnAlways: false,
+                hidePrevious: false
+            });
+        });
+    </script>
+</head>
+<body>
+    <ul class="pagescroll-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about_us.html">ABOUT US</a></li>
+        <li><a href="event.html">EVENT</a></li>
+        <li><a href="letter.html">LETTER</a></li>
+        <li><a href="link.html">LINK</a></li>
+    </ul>
+
+    <div id="container">
+        <div id="theTarget">
+            <div style="background-image: url(top-img/top1.jpg)"></div>
+            <div style="background-image: url(top-img/top2.jpg)"></div>
+        </div>
+    </div>
+
+    <div id="titlename">
+        東京理科大学航空部OBOG会
+    </div>
+
+
+    <div id="index">
+        <h1> トピックス・お知らせ <h1>
+            <h2> <FONT color="orangered">2018年春のOBフライト会を行いました</FONT> </h2>
+            <p>日時: 2018年4月29日(日)</p>
+            <p>場所: NPO法人関宿滑空場</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.055463589812!2d139.8160309508695!3d36.01893898001935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018bb0b4e22a9ff%3A0xfac488641d227918!2z6Zai5a6_5ruR56m65aC077yI77yu77yw77yv5rOV5Lq677yJ!5e0!3m2!1sja!2sjp!4v1523889322392" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id="index">
+        <h1> 東京理科大学航空部OBOG会について </h1>
+        <p> 東京理科大学航空部OBOG会は<a href="http://soaringteam.wp.xdomain.jp/">東京理科大学I部体育局航空部</a>の卒業生によって構成される団体です．<br>
+            現役学生の支援や，OBフライト，そして現役学生部員も含めたメンバー間の親睦をはかっています．<br>
+        </p>
+        <p> 詳しくは<a href="about_us.html">ABOUT US</a>へどうぞ．</p>
+    </div>
+
+    <div id="index">
+        <h1> お問い合わせ </h1>
+        <p> 西口(2009年入部) <br>
+            mail: tusobogsoaring.master[AT]gmail.com <br>
+            ※ [AT]を@に変換してください．
+        </p>
+    </div>
+
+    <footer>
+        <small>Copyright(C) 2008-2018 Soaring Club of Tokyo University of Science. All Rights Reserved.</small>
+    </footer>
+
+    </body>
+</html>
